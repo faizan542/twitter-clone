@@ -13,72 +13,73 @@
 </head>
 
 <body class="bg-black text-white">
-    <div class="flex container mx-auto my-4">
+    <div class="flex md:container mx-auto my-4">
 
         <!-- ------------------------------------------First Section------------------------------------ -->
 
-        <div class="first w-[70%]">
-            <div class="logo invert my-4">
-                <svg viewBox="0 0 24 24" aria-hidden="true"
-                    class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-                    <g>
-                        <path
-                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
-                        </path>
-                    </g>
-                </svg>
-            </div>
-            <div class="sidebar flex items-end flex-col">
-                <ul class="flex flex-col text-2xl space-y-3 px-11 font-bold">
+        <div class="first w-16 md:w-[70%]">
+
+            <div class="sidebar flex md:items-end flex-col sticky top-0">
+                <div class="logo invert my-4 self-start mx-2 md:mx-16">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <ul class="flex flex-col text-2xl space-y-3 md:px-11 font-bold w-full">
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap-3 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined">home </span>
-                        Home
+                        <span class="hidden md:block">Home</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap-3 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined">search </span>
-                        Explore
+                        <span class="hidden md:block">Explore</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap-3 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined">notifications </span>
-                        Notifications
+                        <span class="hidden md:block">Notifications</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap-3 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined">message </span>
-                        Message
+                        <span class="hidden md:block">Message</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap-3 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined">lists </span>
-                        List
+                        <span class="hidden md:block">List</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap-3 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined">bookmarks </span>
-                        Bookmarks
+                        <span class="hidden md:block">Bookmarks</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap-3 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined">group </span>
-                        Communities
+                        <span class="hidden md:block">Communities</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap-3 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined">box </span>
-                        Premium
+                        <span class="hidden md:block">Premium</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap-3 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined">person </span>
-                        Profile
+                        <span class="hidden md:block">Profile</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap-3 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined">pending </span>
-                        More
+                        <span class="hidden md:block">More</span>
                     </li>
                     <li>
                         <div class="button w-full text-center my-4">
@@ -140,10 +141,9 @@
                     </div>
                 </div>
             </div>
-            <hr>
 
             <div class="posts">
-                <div class="post">
+                <div class="post border-[1px] border-y-gray-600 border-x-0">
                     <div class="flex">
                         <div class="image m-4">
                             <img class="w-16 rounded-full" src="profile.jpg" alt="profile">
@@ -182,91 +182,9 @@
                         </div>
                     </div>
                 </div>
-                <hr>
-                
-                <div class="post">
-                    <div class="flex">
-                        <div class="image m-4">
-                            <img class="w-16 rounded-full" src="profile.jpg" alt="profile">
-                        </div>
-                        <div class="content my-3">
-                            <span class="font-bold hover:underline cursor-pointer">Muhammad Faizan</span> <span
-                                class="text-gray-500">@PicturesFolder - 6h</span>
-                            <div>Legend</div>
-                            <div class="postImg m-4 ml-0">
-                                <img class="rounded-xl"
-                                    src="https://i.pinimg.com/736x/66/5f/25/665f25c677e70f919d12b52f83f8bc14.jpg"
-                                    alt="post">
-                            </div>
-                            <div class="icons flex justify-between text-gray-500 mx-3">
-                                <div class="icon flex items-center justify-center">
-                                    <span class="material-symbols-outlined">
-                                        chat_bubble
-                                    </span> 1k
-                                </div>
-                                <div class="icon flex items-center justify-center">
-                                    <span class="material-symbols-outlined">
-                                        repeat
-                                    </span>
-                                </div>
-                                <div class="icon flex items-center justify-center">
-                                    <span class="material-symbols-outlined">
-                                        favorite
-                                    </span>
-                                </div>
-                                <div class="icon flex items-center justify-center">
-                                    <span class="material-symbols-outlined">
-                                        bar_chart
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
 
-                <div class="post">
-                    <div class="flex">
-                        <div class="image m-4">
-                            <img class="w-16 rounded-full" src="profile.jpg" alt="profile">
-                        </div>
-                        <div class="content my-3">
-                            <span class="font-bold hover:underline cursor-pointer">Muhammad Faizan</span> <span
-                                class="text-gray-500">@PicturesFolder - 6h</span>
-                            <div>Legend</div>
-                            <div class="postImg m-4 ml-0">
-                                <img class="rounded-xl"
-                                    src="https://i.pinimg.com/736x/66/5f/25/665f25c677e70f919d12b52f83f8bc14.jpg"
-                                    alt="post">
-                            </div>
-                            <div class="icons flex justify-between text-gray-500 mx-3">
-                                <div class="icon flex items-center justify-center">
-                                    <span class="material-symbols-outlined">
-                                        chat_bubble
-                                    </span> 1k
-                                </div>
-                                <div class="icon flex items-center justify-center">
-                                    <span class="material-symbols-outlined">
-                                        repeat
-                                    </span>
-                                </div>
-                                <div class="icon flex items-center justify-center">
-                                    <span class="material-symbols-outlined">
-                                        favorite
-                                    </span>
-                                </div>
-                                <div class="icon flex items-center justify-center">
-                                    <span class="material-symbols-outlined">
-                                        bar_chart
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
 
-                <div class="post">
+                <div class="post border-[1px] border-y-gray-600 border-x-0">
                     <div class="flex">
                         <div class="image m-4">
                             <img class="w-16 rounded-full" src="profile.jpg" alt="profile">
@@ -305,9 +223,9 @@
                         </div>
                     </div>
                 </div>
-                <hr>
 
-                <div class="post">
+
+                <div class="post border-[1px] border-y-gray-600 border-x-0">
                     <div class="flex">
                         <div class="image m-4">
                             <img class="w-16 rounded-full" src="profile.jpg" alt="profile">
@@ -346,7 +264,89 @@
                         </div>
                     </div>
                 </div>
-                <hr>
+
+
+                <div class="post border-[1px] border-y-gray-600 border-x-0">
+                    <div class="flex">
+                        <div class="image m-4">
+                            <img class="w-16 rounded-full" src="profile.jpg" alt="profile">
+                        </div>
+                        <div class="content my-3">
+                            <span class="font-bold hover:underline cursor-pointer">Muhammad Faizan</span> <span
+                                class="text-gray-500">@PicturesFolder - 6h</span>
+                            <div>Legend</div>
+                            <div class="postImg m-4 ml-0">
+                                <img class="rounded-xl"
+                                    src="https://i.pinimg.com/736x/66/5f/25/665f25c677e70f919d12b52f83f8bc14.jpg"
+                                    alt="post">
+                            </div>
+                            <div class="icons flex justify-between text-gray-500 mx-3">
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        chat_bubble
+                                    </span> 1k
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="post border-[1px] border-y-gray-600 border-x-0">
+                    <div class="flex">
+                        <div class="image m-4">
+                            <img class="w-16 rounded-full" src="profile.jpg" alt="profile">
+                        </div>
+                        <div class="content my-3">
+                            <span class="font-bold hover:underline cursor-pointer">Muhammad Faizan</span> <span
+                                class="text-gray-500">@PicturesFolder - 6h</span>
+                            <div>Legend</div>
+                            <div class="postImg m-4 ml-0">
+                                <img class="rounded-xl"
+                                    src="https://i.pinimg.com/736x/66/5f/25/665f25c677e70f919d12b52f83f8bc14.jpg"
+                                    alt="post">
+                            </div>
+                            <div class="icons flex justify-between text-gray-500 mx-3">
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        chat_bubble
+                                    </span> 1k
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -354,7 +354,7 @@
 
         <!-- ------------------------------------------Third Section------------------------------------ -->
 
-        <div class="third w-full ">
+        <div class="third w-full hidden md:block">
             <div class="search m-3">
                 <input type="text" class="w-1/2 rounded-full bg-[#16181c] text-white px-4 py-2" placeholder="Search">
             </div>
